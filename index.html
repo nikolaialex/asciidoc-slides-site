@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="author" content="Nikolai Alex">
+<title>Asciidoc Slides: Getting started</title>
+<link rel="stylesheet" href="dist/css/asciidoc-slides.css">
+<link rel="stylesheet" href="dist/css/asciidoc-presenter.css">
+<link rel="stylesheet" href="dist/css/print.css">
+<link rel="stylesheet" href="dist/css/rouge-github.css">
+<link rel="stylesheet" href="dist/css/theme-simple.css">
+</head>
+<body class="article">
+<div id="header">
+<h1>Asciidoc Slides: Getting started</h1>
+<div class="details">
+<span id="author" class="author">Nikolai Alex</span><br>
+<span id="revnumber">version 0.1.0,</span>
+<span id="revdate">2020-06-01</span>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_getting_started">Getting started</a></li>
+<li><a href="#_features">Features</a></li>
+<li><a href="#_a_slide">A slide</a></li>
+<li><a href="#_a_slide_with_a_background_image">A slide with a background image</a></li>
+<li><a href="#_awesome_bullet_points">Awesome bullet points</a></li>
+<li><a href="#_put_all_your_knowledge_on_one_slide">Put all your knowledge on one slide</a></li>
+<li><a href="#_slides_are_html">Slides are HTML</a></li>
+<li><a href="#_themes">Themes</a></li>
+<li><a href="#_asciidoc">Asciidoc</a></li>
+<li><a href="#_speaker_notes">Speaker notes</a></li>
+<li><a href="#_some_images">Some images</a></li>
+<li><a href="#_a_quote">A quote</a></li>
+<li><a href="#_some_code">Some code</a></li>
+<li><a href="#_tabular_tables">Tabular Tables</a></li>
+<li><a href="#_fantastic_printing">Fantastic printing</a></li>
+<li><a href="#_take_a_moment">Take a Moment</a></li>
+<li><a href="#_fullscreen">Fullscreen</a></li>
+<li><a href="#_help">Help</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<section id="_getting_started" class="sect1">
+<h2>Getting started</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>I was looking for an easy way to create HTML slides from Asciidoc. Since I was not happy with RevealJS, I came up with this simple framework.</p>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_features" class="sect1">
+<h2>Features</h2>
+      <section class="sectionbody">
+      <div class="ulist">
+<ul>
+<li>
+<p>Focus on the content using Asciidoc.</p>
+</li>
+<li>
+<p>Use web standard to create a simple and lightweight implementation.</p>
+</li>
+<li>
+<p>Give user full control over stylings.</p>
+</li>
+</ul>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_a_slide" class="sect1">
+<h2>A slide</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>A slide is simply a level 2 section in Asciidoc.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="asciidoc">== Your slide title
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat, sed diam voluptua.</code></pre>
+</div>
+</div>
+<div class="sidebarblock notes">
+<div class="content">
+<div class="paragraph">
+<p>A slide is simply a level 2 section.</p>
+</div>
+</div>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_a_slide_with_a_background_image" class="sect1">
+<h2>A slide with a background image</h2>
+      <section class="sectionbody">
+      <div class="imageblock background">
+<div class="content">
+<a class="image" href="https://unsplash.com/photos/jFCViYFYcus"><img src="images/forest.jpg" alt="forest"></a>
+</div>
+</div>
+<div class="paragraph notes">
+<p>Photo by Lukasz Szmigiel on Unsplash</p>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_awesome_bullet_points" class="sect1">
+<h2>Awesome bullet points</h2>
+      <section class="sectionbody">
+      <div class="ulist">
+<ul>
+<li>
+<p>Milk</p>
+</li>
+<li>
+<p>Eggs</p>
+</li>
+<li>
+<p>Sugar</p>
+</li>
+<li>
+<p>Bread</p>
+</li>
+<li>
+<p>Cheese</p>
+</li>
+</ul>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_put_all_your_knowledge_on_one_slide" class="sect1">
+<h2>Put all your knowledge on one slide</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+</div>
+<div class="paragraph">
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+<div class="paragraph">
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+</div>
+<div class="paragraph">
+<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+<div class="paragraph">
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+</div>
+<div class="paragraph">
+<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+</div>
+<div class="paragraph">
+<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.</p>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_slides_are_html" class="sect1">
+<h2>Slides are HTML</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>So you can do whatever you want.</p>
+</div>
+<iframe height="451" style="width: 100%;" scrolling="no" title="Pure CSS Playing Card No.1 - King of Hearts" src="https://codepen.io/ivorjetski/embed/ExaKmjw?height=451&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/ivorjetski/pen/ExaKmjw'>Pure CSS Playing Card No.1 - King of Hearts</a> by Ben Evans
+  (<a href='https://codepen.io/ivorjetski'>@ivorjetski</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</section><span class="page-number"><span>
+</section>
+<section id="_themes" class="sect1">
+<h2>Themes</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>Just link your css at the end and override or add styles. Modify the file <code>dist/docinfo/docinfo-footer.html</code> to add your custom css or just edit the <code>dist/css/theme-simple.css</code></p>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_asciidoc" class="sect1">
+<h2>Asciidoc</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>The slides are generated from Asciidoc. Unfourtunalty, I had to modify the HTML output. For that you have to require a ruby class.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="shell"><span class="nv">$ </span>asciidoctor <span class="nt">-r</span> ./dist/lib/asciidoc_slides_converter.rb getting_started.adoc</code></pre>
+</div>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_speaker_notes" class="sect1">
+<h2>Speaker notes</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>Use <strong>N</strong> to switch into presentation mode. You can add notes using the following code.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="asciidoc">[.notes]
+* Your help text.
+* You can use all Asciidoc features for writing notes.</code></pre>
+</div>
+</div>
+<div class="sidebarblock notes">
+<div class="content">
+<div class="paragraph">
+<p>These are your notes. Never forget what you want to say.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="asciidoc">[.notes]
+* Your help text.
+* You can use all Asciidoc features for writing notes.</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_some_images" class="sect1">
+<h2>Some images</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>You can also use inline images.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/forest.jpg" alt="forest" height="400px"></span>
+<span class="image"><img src="images/forest.jpg" alt="forest" height="400px"></span></p>
+</div>
+<div class="sidebarblock notes">
+<div class="content">
+<div class="paragraph">
+<p>Photo by Sebastian Unrau on Unsplash</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="asciidoc">== Some images
+You can also use inline images.
+
+image:forest.jpg[height=400px]
+image:forest.jpg[height=400px]</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_a_quote" class="sect1">
+<h2>A quote</h2>
+      <section class="sectionbody">
+      <div class="quoteblock">
+<blockquote>
+Either write something worth reading or do something worth writing.
+</blockquote>
+<div class="attribution">
+&#8212; Benjamin Franklin
+</div>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_some_code" class="sect1">
+<h2>Some code</h2>
+      <section class="sectionbody">
+      <div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="java"><span class="nc">Foo</span> <span class="n">foo</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Foo</span><span class="o">();</span>
+<span class="nc">Bar</span> <span class="n">bar</span> <span class="o">=</span> <span class="n">foo</span><span class="o">.</span><span class="na">bar</span><span class="o">();</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">bar</span><span class="o">);</span></code></pre>
+</div>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_tabular_tables" class="sect1">
+<h2>Tabular Tables</h2>
+      <section class="sectionbody">
+      <table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Column A</th>
+<th class="tableblock halign-left valign-top">Column B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lorem</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ipsum</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dolor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sit</p></td>
+</tr>
+</tbody>
+</table>
+</section><span class="page-number"><span>
+</section>
+<section id="_fantastic_printing" class="sect1">
+<h2>Fantastic printing</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>Just print this page. The ''print.css'' should take care of everything.</p>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_take_a_moment" class="sect1">
+<h2>Take a Moment</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>Press <strong>B</strong> or <strong>.</strong> on your keyboard to pause the presentation. This is helpful when you&#8217;re on stage and want to take distracting slides off the screen.</p>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_fullscreen" class="sect1">
+<h2>Fullscreen</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>Press <strong>F</strong> to enter or leave fullscreen mode.</p>
+</div>
+</section><span class="page-number"><span>
+</section>
+<section id="_help" class="sect1">
+<h2>Help</h2>
+      <section class="sectionbody">
+      <div class="paragraph">
+<p>Pressing <strong>H</strong> displays the help dialog with all shortcut options.</p>
+</div>
+</section><span class="page-number"><span>
+</section>
+</div>
+<link rel="stylesheet" href="./rouge-github.css">
+<aside id="help" class="hidden side-menu">
+  <h1>Shortcuts</h1>
+  <dl>
+    <dt><kbd>N</kbd></kbd></dt>
+    <dd>Presentator Mode</dd>
+
+    <dt><kbd>&leftarrow;</kbd></dt>
+    <dd>Previous slide</dd>
+
+    <dt><kbd>&rightarrow;</kbd></dt>
+    <dd>Next slide</dd>
+
+    <dt><kbd>Shift</kbd> + <kbd>&leftarrow;</kbd></dt>
+    <dd>First slide</dd>
+
+    <dt><kbd>Shift</kbd> + <kbd>&rightarrow;</kbd></dt>
+    <dd>Last slide</dd>
+
+    <dt><kbd>B</kbd></dt>
+    <dd>Sleep</dd>
+
+    <dt><kbd>F</kbd></dt>
+    <dd>Fullscreen Mode</dd>
+
+    <dt><kbd>H</kbd></dt>
+    <dd>Help</dd>
+  </dl>
+</aside>
+
+<aside id="pause" class="hidden">
+  <span>Press 'b' or '.' to resume.</span>
+</aside>
+<footer>Asciidoc Slides https://github.com/nikolaialex/asciidoc-slides</footer>
+<script src="dist/js/asciidoc-slides.js"></script>
+</body>
+</html>
